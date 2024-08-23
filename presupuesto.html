@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuestos - YourShoes</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/favicon.png">
+</head>
+<body>
+    <!-- Header: Logo y Navegación -->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="./img/logo.png" alt="Logo Zapatos">
+                <h1>YourShoes</h1>
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li class="li"><a href="index.html">Inicio</a></li>
+                <li class="li"><a href="productos.html">Galería</a></li>
+                <li class="in-link"><a href="presupuesto.html">Presupuestos</a></li>
+                <li class="li"><a href="acerca.html">Acerca</a></li>
+            </ul>
+        </nav>
+        <a href="contacto.html" class="btn"><button>Contacto</button></a>
+    </header>
+    <!-- Sección: Presupuesto -->
+    <section class="presupuesto-info">
+        <div class="presupuesto-text">
+            <h2>Obtén un Presupuesto Personalizado</h2>
+            <p>En YourShoes, te ofrecemos la posibilidad de solicitar un presupuesto personalizado para pedidos grandes o especiales. Ya sea que estés organizando un evento, buscando uniformes para un equipo, o simplemente quieras hacer una compra al por mayor, estamos aquí para ayudarte.</p>
+            <p>Rellena el formulario a continuación con los detalles de tu solicitud y nuestro equipo se pondrá en contacto contigo lo antes posible con una oferta personalizada.</p>
+        </div>
+        <div class="presupuesto-form">
+            <div class="form-header">
+                <h2>Formulario de Presupuesto</h2>
+            </div>
+            <div class="form-inputs">
+                <form action="#" method="post">
+                    <div class="form-block">
+                        <label>Nombre<span>*</span></label>
+                        <input type="text" id="name" name="name" placeholder="Javier Martinez Leal" required>
+                    </div>
+                    <div class="form-block">
+                        <label>Correo Electrónico<span>*</span></label>
+                        <input type="email" id="email" name="email" placeholder="YourShoes@yourshoes.com" required>
+                    </div>
+                    <div class="form-block">
+                        <label>Teléfono<span>*</span></label>
+                        <input type="tel" name="phone" placeholder="111-11-11-11">
+                    </div>
+                    <div class="form-block">
+                        <label>Solicite más información</label>
+                        <textarea  name="details" rows="4" placeholder="¿Desde que tallas tienen?"></textarea>
+                    </div>
+                    <div class="form-block">
+                        <label>Cantidad Estimada<span>*</span></label>
+                        <input type="number" name="quantity" placeholder="Minimo: 5 uds" required>
+                    </div>
+                    <div class="form-block">
+                        <label>Fecha Límite de Entrega<span>*</span></label>
+                        <input type="date" name="date" required>
+                    </div>
+                    <div class="checkbox-block">
+                        <input class="checkbox" type="checkbox" name="privacy" required>
+                        <label>Acepto la <a href="#">Política de Privacidad</a></label>
+                    </div>
+                    <div class="form-block">
+                        <button class="button button-margin" type="submit">Solicitar Presupuesto</button>
+                    </div>
+                    <div class="form-block">
+                        <button class="button" type="reset">Borrar pedido</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer: Enlaces y Redes Sociales -->
+    <footer class="footer">
+        <div class="footer-sections">
+            <div class="footer-section">
+                <h4>YourShoes</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Galería</a></li>
+                    <li><a href="presupuesto.html">Presupuestos</a></li>
+                    <li><a href="acerca.html">Acerca</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <ul class="social-media">
+                    <li><a href="https://www.facebook.com/" target="_blank"><div class="facebook-icon"></div></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><div class="instagram-icon"></div></a></li>
+                    <li><a href="https://x.com/" target="_blank"><div class="twitter-icon"></div></a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Atención al Cliente</h4>
+                <ul>
+                    <li>Teléfono: <a href="tel:111111111">111-11-11-11</a></li>
+                    <li>Email: <a href="mailto:Yourshoes@yourshoes.com">YourShoes@yourshoes.com</a></li>
+                    <li>Horario de Atención: Lunes a Viernes, de 9:00 a 18:00</li>
+                    <li>Dirección: <a href="/contacto.html">Calle Caracas, 1, Alcalá de Henares, Madrid, 28806</a></li>
+                </ul>
+            </div>
+            <div class="footer-section newsletter">
+                <h4>Suscríbete a Nuestro Boletín</h4>
+                <form action="#" method="post">
+                    <input type="email" placeholder="Ingresa tu correo electrónico" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-legal">
+            <ul>
+                <li><a href="#">Términos y Condiciones</a></li>
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Cookies</a></li>
+            </ul>
+            <p>&copy; 2024 YourShoes. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
